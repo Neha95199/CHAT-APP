@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import { IoArrowBackSharp } from 'react-icons/io5';
 import { BiLogOut } from "react-icons/bi";
 import userConversation from "../../Zustans/userConversation";
-import { useSocketContext } from "../../Context/socketContext";
+import { useSocketContext } from "../../Context/SocketContext";
 
 const Sidebar = ({ onSelectUser }) => {
 
