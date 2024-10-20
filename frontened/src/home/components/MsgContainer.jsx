@@ -6,7 +6,7 @@ import { MdArrowBackIosNew } from "react-icons/md";
 import { IoSend } from "react-icons/io5";
 import notify from '../../assets/sound/notification.mp3';
 import axios from "axios";
-import { useSocketContext } from "../../Context/socketContext";
+import { useSocketContext } from "../../Context/socketContext.jsx";
 
 const MsgContainer = ({onBackUser}) => {
   const { message, selectedConversation,setSelectedConversation, setMessages } = userConversation();
