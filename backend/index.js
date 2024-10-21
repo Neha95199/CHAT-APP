@@ -27,6 +27,7 @@ async function main() {
 app.use(express.json());
 app.use(cookieParser());
 
+
 app.use("/api/authh",authRouter);
 app.use("/api/message",messageRouter);
 app.use("/api/user",userRouter);
