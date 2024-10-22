@@ -133,7 +133,8 @@ const MsgContainer = ({onBackUser}) => {
                  {message?.message}
                 </div>
                 <div className="chat-footer text-[10px] opacity-80 text-white">
-                  {new Date(message?.createdAt).toLocaleDateString('en-IN')}
+                  {new Date(message?.createdAt).toLocaleDateString('en-IN')}&nbsp;
+                  &nbsp;
                   {new Date(message?.createdAt).toLocaleTimeString('en-IN',{hour:'numeric',minute:'numeric'})}
                 </div>
               </div>
