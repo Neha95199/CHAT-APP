@@ -6,6 +6,8 @@ import authRouter from "./rout/authUser.js";
 import userRouter from "./rout/userRout.js"
 import cookieParser from 'cookie-parser';
 import path from 'path';
+import cors from 'cors';
+
 
 import {app,server} from './socket.io/socket.js';
 
